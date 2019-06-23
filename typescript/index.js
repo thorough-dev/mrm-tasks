@@ -23,7 +23,7 @@ function task() {
   });
 
   // package.json
-  pkg.appendScript('pretest', `tsc${usesBabel ? ' --noEmit' : ''}`);
+  pkg.appendScript('typecheck', `tsc --noEmit`);
 
   if (usesBabel) {
     devPackages.push('@babel/preset-typescript');
@@ -40,6 +40,6 @@ function task() {
 }
 
 task.description =
-  'Adds TypeScript, using Babel compiler if the project uses Babel';
+  'Adds TypeScript, using Babel compiler if the project uses Babel.';
 
 module.exports = task;

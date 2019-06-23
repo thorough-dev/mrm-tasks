@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "description": "Tasks for MRM to aid in setting up software projects.",
   "main": "config.json",
+  "files": [
+    "config.json",
+    "*/index.js"
+  ],
+  "homepage": "https://github.com/thorough-dev/mrm-tasks#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thorough-dev/mrm-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thorough-dev/mrm-tasks/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
