@@ -1,0 +1,15 @@
+{
+  "name": "@thorough/mrm-tasks",
+  "version": "0.1.0",
+  "description": "Tasks for MRM to aid in setting up software projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zachary Jones <zachary@thorough.company>",
+  "license": "MIT",
+  "dependencies": {
+    "mrm-core": "^3.3.0"
+  }
+}
