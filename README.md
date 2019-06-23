@@ -1,4 +1,4 @@
-<h1 align="center">`@thorough/mrm-tasks` 👋</h1>
+<h1 align="center">@thorough/mrm-tasks 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/thorough-dev/mrm-tasks#readme">
@@ -15,9 +15,7 @@
   </a>
 </p>
 
-> Tasks for MRM to aid in setting up software projects.
-
-### 🏠 [Homepage](https://github.com/thorough-dev/mrm-tasks#readme)
+> Tasks for [MRM](https://github.com/sapegin/mrm) to aid in setting up software projects.
 
 ## Usage
 
@@ -30,16 +28,17 @@ npx mrm task-name --preset @thorough-dev/mrm-tasks
 Our preset includes several tasks that are handy for starting new projects.
 While we generally have a specific stack we prefer, we've strived to make the
 tasks as flexible as possible, reading your existing codebase and adjusting
-based on any existing patterns or tools you seem to be using. 
+based on any existing patterns or tools you seem to be using.
 
-* [`typescript`](./typescript/)
+- [`typescript`](./typescript/)
+- [`babel`](./babel/)
 
 ## Author
 
 👤 **Zachary Jones &lt;zachary@thorough.company&gt;**
 
-* Twitter: [@ThoroughCompany](https://twitter.com/ThoroughCompany)
-* Github: [@thorough-dev](https://github.com/thorough-dev)
+- Twitter: [@ThoroughCompany](https://twitter.com/ThoroughCompany)
+- Github: [@thorough-dev](https://github.com/thorough-dev)
 
 ## 🤝 Contributing
 

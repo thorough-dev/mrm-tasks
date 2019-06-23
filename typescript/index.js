@@ -1,10 +1,11 @@
-const {json, packageJson, install} = require('mrm-core');
+const { json, packageJson, install } = require('mrm-core');
 
 const devPackages = ['typescript'];
 
 function task() {
   const pkg = packageJson();
-  const usesBabel = pkg.get('devDependencies')['@babel/core'] !== undefined;
+  const usesBabel =
+    pkg.get('devDependencies.@babel/core') !== undefined;
 
   // tsconfig.json
   const tsconfig = json('tsconfig.json');
@@ -18,8 +19,8 @@ function task() {
       strict: true,
       experimentalDecorators: true,
       lib: ['esnext'],
-      ...(usesBabel && {noEmit: true}),
-    },
+      ...(usesBabel && {noEmit: true})
+    }
   });
 
   // package.json

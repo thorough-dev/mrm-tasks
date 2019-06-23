@@ -10,5 +10,5 @@ sets your `tsconfig.json` to not emit, which essentially makes TypeScript's comp
 provide type checking for you, which Babel's TypeScript compiler does not.
 
 A script is also added to your `package.json` called `typecheck` which will run the TypeScript
-compiler against your code and log any errors or warnings to `stdout`. __It intentionally will not
-actually produce any compiled JavaScript during this.__
+compiler against your code and log any errors or warnings to `stdout`. **It intentionally will not
+actually produce any compiled JavaScript during this.**
