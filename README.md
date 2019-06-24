@@ -20,7 +20,11 @@
 ## Usage
 
 ```sh
-npx mrm task-name --preset @thorough-dev/mrm-tasks
+# Install the preset globally
+npm i -g @thorough/mrm-tasks
+
+# Then run with npx mrm (or a local version of mrm)
+npx mrm typescript --preset @thorough/mrm-tasks
 ```
 
 ### Included tasks
