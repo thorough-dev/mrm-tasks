@@ -26,11 +26,11 @@
   "author": "Zachary Jones <zachary@thorough.company>",
   "license": "MIT",
   "dependencies": {
-    "mrm-core": "^3.3.0"
+    "mrm-core": "^3.3.4"
   },
   "devDependencies": {
     "@thorough/dev-configs": "^0.3.1",
-    "prettier": "^1.18.2",
-    "typescript": "^3.5.2"
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.2"
   }
 }
